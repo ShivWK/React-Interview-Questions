@@ -23,7 +23,8 @@ main {
     justify-content: center;
 }
 
-.heading {
+/* Accordion classes */
+/* .heading {
     padding: 10px;
     background-color: brown;
     border: 1px solid white;
@@ -48,4 +49,20 @@ main {
     padding: 5px 15px;
     font-size: "16px";
     cursor: "pointer"
+} */
+
+.grid {
+    height: 20vh;
+    width: 20vh;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+
+.gridBoxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-row {
+    display: flex;
 }

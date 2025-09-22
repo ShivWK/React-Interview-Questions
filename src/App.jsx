@@ -1,10 +1,12 @@
-import Accordian from "./components/Acordian/Accordion"
+// import Accordion from "./components/Accordion/Accordion";
+import GridMain from "./components/Grid Light/GridMain";
 
 function App() {
 
   return (
     <>
-      <Accordian />
+      {/* <Accordion /> */}
+      <GridMain />
     </>
   )
 }
